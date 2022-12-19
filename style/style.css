@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: lightgrey;
+}
+.add-form{
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgb(120, 124, 115);
+}
+input{
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    height: 50px;
+    /* min-width: 50%; */
+    /* align-self: center; */
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: rgb(172, 218, 172);
+    cursor: pointer;
+}
+.product{
+    max-width: 600px;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+}
+.sub-header{
+    font-size: 35px;
+    
+}
